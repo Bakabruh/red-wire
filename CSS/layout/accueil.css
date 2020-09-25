@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/kau1rcv.css");
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
 
 * {
     margin: 0;
@@ -40,4 +41,32 @@ body {
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #F5CCC0;
+}
+
+section {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #DB771C;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section div {
+    width: 500px;
+    margin: 40px 0;
+    padding: 20px;
+    border: solid #DBCA22 4px;
+    border-radius: 20px;
+}
+
+section div h2 {
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Balsamiq Sans";
+    color: #DB1709;
+}
+
+section div p {
+    font-family: 'Alef', sans-serif;
+    text-align: justify;
 }
