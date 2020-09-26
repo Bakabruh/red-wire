@@ -33,6 +33,10 @@ nav div h1 {
     cursor: pointer;
 }
 
+nav div a {
+    text-decoration: none;
+}
+
 nav div h1:hover {
     color: #DB771C;
     font-size: 1.7em;

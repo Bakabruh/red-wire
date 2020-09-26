@@ -51,6 +51,10 @@ body {
     margin-top: 30px;
 }
 
+.bruh .big-picture div a {
+    text-decoration: none;
+}
+
 .bruh .big-picture div:hover {
     background-color: #46FAE3;
     border: none;
