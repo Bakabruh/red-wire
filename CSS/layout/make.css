@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+hr {
+    margin: 0 20px;
+}
+
+.hashtag {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hashtag h3 {
+    color: #DB771C;
+    margin: 20px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.englobe {
+    width: 80%;
+    background-color: #202020;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.englobe .categories {
+    margin-top: 100px;
+}
+
+.englobe .categories a {
+    margin: 50px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.englobe .categories h2 {
+    color: #46FAE3;
+    font-family: 'Alef', sans-serif;
+}
+
+.englobe .categories h2:hover {
+    font-size: 22px;
+    transition: 0.2s;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flex-column .survey-exemple {
+    margin: 40px;
+    border: solid #404040 2px;
+    border-radius: 15px;
+}
+
+.flex-column .survey-exemple div {
+    margin: 10px 30px;
+}
+
+.survey-exemple img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.survey-exemple .profile {
+    display: flex;
+}
+.survey-exemple .profile h3 {
+    align-self: center;
+    margin: 0 20px;
+    font-family: 'Alef', sans-serif;
+    color: #F5CCC0;
+}

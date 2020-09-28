@@ -1,6 +1,7 @@
 Présentation du projet
 
-3 pages à réaliser :
+4 pages à réaliser :
+-    landing page
 -    La page où sont proposé les différents sondages
 -    La page d’un sondage
 -    La page de classement
