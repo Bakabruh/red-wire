@@ -1,5 +1,6 @@
-@import "layout/navbar.css";
-@import "layout/accueil.css";
-@import "layout/sondage.css";
-@import "layout/make.css";
-@import "layout/classement.css";
+@import "layout/_navbar.css";
+@import "pages/_home.css";
+@import "pages/_sondage.css";
+@import "pages/_make.css";
+@import "pages/_classement.css";
+@import "bases/_typos.css";
