@@ -23,6 +23,21 @@
     margin: 0 50px;
 }
 
+.top {
+    width: 300px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 230px;
+    border-radius: 100px;
+}
+
+.top h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: chuck, sans-serif;
+    font-weight: lighter;
+}
+
 .global {
     display: flex;
     justify-content: space-evenly;
@@ -37,8 +52,8 @@
 
 .global-classement .classement {
     width: 80%;
-    background-color: #F5CCC0;
-    padding: 20px;
+    background-color: #202020;
+    padding: 10px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -48,7 +63,7 @@
 }
 
 .global-classement .classement:hover {
-    box-shadow: 10px -10px #202020;
+    box-shadow: 10px -10px #46FAE3;
     transition: 0.3s;
 }
 
@@ -61,7 +76,7 @@
     font-size: 2em;
     align-self: center;
     margin-left: 30px;
-    color: #260101;
+    color: #F5CCC0;
 }
 
 .other-rank {
@@ -73,10 +88,30 @@
     height: 400px;
     margin-top: 200px;
     background-color: #404040;
+    border-radius: 70px;
+}
+
+.other-rank h2 {
+    font-family: 'Alef', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
 }
 
 .other-rank div {
     display: flex;
     flex-direction: row;
     margin: 100px 0;
+}
+
+.other-rank div img {
+    border-radius: 60px;
+}
+
+.other-rank div p {
+    align-self: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin: 0 20px;
 }
