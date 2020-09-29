@@ -19,3 +19,7 @@ et se log in.
 - BG avec une image et avec dessus le nom de la plateform : Gamipoll.
 -Quelques div qui seront là pour présenter et expliquer le concept de la plateforme.
 -Un footer avec des mentions légales et les contact.
+
+Page de sondage : - Un header avec des hashtag 
+- une div sur le côté gauche avec les boutons d'accueil, nouveautés, les plus populaires...
+- une div qui présente les récents sondages du thème choisit
