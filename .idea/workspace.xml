@@ -21,9 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="69b9921e-7f0a-4b34-9e3a-91921519c615" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classement.html" beforeDir="false" afterPath="$PROJECT_DIR$/classement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/pages/_make.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/pages/_make.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/make.html" beforeDir="false" afterPath="$PROJECT_DIR$/make.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sondage.html" beforeDir="false" afterPath="$PROJECT_DIR$/sondage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,6 +86,11 @@
       <workItem from="1601390308597" duration="1756000" />
       <workItem from="1601408613776" duration="143000" />
       <workItem from="1601415395384" duration="1419000" />
+      <workItem from="1601464510438" duration="92000" />
+      <workItem from="1601473464201" duration="19000" />
+      <workItem from="1601806467305" duration="7061000" />
+      <workItem from="1601817703556" duration="2651000" />
+      <workItem from="1601845367477" duration="4431000" />
     </task>
     <servers />
   </component>
@@ -102,5 +108,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601473481830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601473481830" />
   </component>
 </project>

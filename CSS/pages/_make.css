@@ -15,6 +15,10 @@ hr {
     flex-wrap: wrap;
 }
 
+.hashtag a {
+    text-decoration: none;
+}
+
 .hashtag h3 {
     color: #DB771C;
     margin: 20px;
@@ -81,6 +85,51 @@ hr {
     color: #F5CCC0;
 }
 
-.survey-exemple .profile p {
+.survey-exemple .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.survey-exemple .answers {
     font-family: 'Balsamiq Sans', cursive;
+    color: #F5CCC0;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.survey-exemple .answers:hover {
+    background-color: #404040;
+    transition: 0.2s;
+}
+
+#question-title {
+    color: #ffffff;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+#div-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    padding: 10px;
+    color: #404040;
+    background-color: #DB771C;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    align-self: center;
+    margin: 20px auto;
+    border: none;
+}
+
+.bouton:hover {
+    font-weight: bold;
+    transition: 0.2s;
+    opacity: 75%;
 }
