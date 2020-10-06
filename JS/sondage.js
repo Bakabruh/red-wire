@@ -5,6 +5,7 @@ const rep1 = document.getElementById('first-rep');
 const rep2 = document.getElementById('second-rep');
 const rep3 = document.getElementById('third-rep');
 const rep4 = document.getElementById('fourth-rep');
+const reponses = document.querySelector(".answers");
 
 class Sondage {
     title;
@@ -15,7 +16,7 @@ class Sondage {
     }
 }
 
-var survey = new Sondage("Game of throne", "Your score is " + this.score);
+var survey = new Sondage("Game of throne", 0);
 
 class Question {
   questionTitle;
@@ -76,9 +77,17 @@ var question6 = new Question("Qui interprète la mère des dragons, Daenerys Tar
 
 const questions = [question1, question2, question3, question4, question5, question6];
 
-
-
 function showQuestions () {
+
+  /*questions.forEach((theQuestion, index) => {
+    title.innerHTML = survey.title;
+    question.innerHTML = theQuestion[index].questionTitle;
+
+    for(let i=0; i < theQuestion.answers.length; i++) {
+      reponses.innerHTML = theQuestion.answers[i].choice;
+    }
+  });*/
+
     for(let i=0; i < questions.length; i++) {
         title.innerHTML = survey.title;
         question.innerHTML = questions[i].questionTitle;
@@ -88,5 +97,16 @@ function showQuestions () {
         rep4.innerHTML = questions[i].answers[3].choice;
     }
 }
-
 showQuestions();
+
+reponses.addEventListener("click", chooseWise);
+
+function chooseWise () {
+
+}
+
+btn.addEventListener("click", nextQuestion);
+
+function nextQuestion () {
+
+}

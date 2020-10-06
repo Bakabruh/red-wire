@@ -7,13 +7,33 @@
 </head>
 <body>
 
+  <form id="form" action="make.html" method="post">
+    <h2>Connectez-vous</h2>
+    <div class="form-control">
+      <label>Username</label>
+      <input id="pseudo" type="text" name="pseudo" placeholder="Pseudo" value="">
+      <small>Error message</small>
+    </div>
+    <div class=form-control"">
+      <label>Email</label>
+      <input id="mail" type="email" name="email" placeholder="Email" value="">
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label>Password</label>
+      <input id="mdp" type="password" name="mdp" placeholder="Mot de passe" value="">
+      <small>Error message</small>
+    </div>
+    <button type="submit" name="button">Submit</button>
+  </form>
+
     <div class="hashtag">
         <a href="make.html"><h3>#Game of Throne</h3></a>
         <a href="#"><h3>#Stranger Things</h3></a>
         <a href="#"><h3>#Black Mirror</h3></a>
     </div>
 
-    <div class="englobe">
+    <div id="engl" class="englobe">
 
         <div class="categories">
             <a href="home.html"><h2>Accueil</h2></a> <br>
@@ -43,7 +63,7 @@
                     <div class="answers" id="fourth-rep"></div>
                 </div>
                 <div id="div-btn">
-                    <input id="btn" class="bouton" type="submit" value="Send">
+                    <input id="btn" class="bouton" type="submit" value="Next">
                 </div>
             </div>
 
@@ -52,6 +72,7 @@
     </div>
 
 <script src="JS/sondage.js" charset="utf-8"></script>
+<script src="JS/popForm.js" charset="utf-8"></script>
 
 </body>
 </html>

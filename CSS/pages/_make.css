@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-hr {
-    margin: 0 20px;
-}
-
 .hashtag {
     width: 100%;
     background-color: #000000;
@@ -26,30 +22,31 @@ hr {
     font-family: 'Balsamiq Sans', cursive;
 }
 
-.englobe {
+#engl {
     width: 80%;
     background-color: #202020;
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    visibility: visible;
 }
 
-.englobe .categories {
-    margin-top: 100px;
+#engl .categories {
+    margin: 150px 100px 0 0;
 }
 
-.englobe .categories a {
+#engl .categories a {
     margin: 50px 0;
     text-align: center;
     text-decoration: none;
 }
 
-.englobe .categories h2 {
+#engl .categories h2 {
     color: #46FAE3;
     font-family: 'Alef', sans-serif;
 }
 
-.englobe .categories h2:hover {
+#engl .categories h2:hover {
     font-size: 22px;
     transition: 0.2s;
 }
